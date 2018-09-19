@@ -8,6 +8,7 @@ external fun require(module: String): dynamic
 
 fun main(args: Array<String>) {
     require("../asset/css/app.css")
+    require("../js/main.js")
 
     val env = js("process.env.NODE_ENV")
     console.log("env: $env")

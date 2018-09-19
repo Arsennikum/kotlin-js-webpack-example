@@ -10,4 +10,7 @@ object InfoGenerator {
             it.appendChild(content)
             it.addClass("alarm")
         }
+
+    var name: String = "Kotlin"
+
 }
