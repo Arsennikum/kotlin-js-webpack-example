@@ -6,7 +6,7 @@ import kotlin.browser.document
 
 external fun require(module: String): dynamic
 
-fun main(args: Array<String>) {
+fun main() {
     require("../asset/css/app.css")
     require("../js/main.js")
 
